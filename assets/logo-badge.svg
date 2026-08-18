@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-label="DN Super Clean Cleaning Services, (813) 638-3518">
+  <defs>
+    <radialGradient id="badgeNavy" cx="42%" cy="34%" r="78%">
+      <stop offset="0%" stop-color="#3B3390"/>
+      <stop offset="55%" stop-color="#282063"/>
+      <stop offset="100%" stop-color="#181147"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#BFD4E8"/>
+      <stop offset="100%" stop-color="#8FA6C0"/>
+    </linearGradient>
+    <linearGradient id="bBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A9E2FF"/>
+      <stop offset="45%" stop-color="#4FB8F2"/>
+      <stop offset="100%" stop-color="#1568C2"/>
+    </linearGradient>
+    <linearGradient id="bGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C6E86A"/>
+      <stop offset="50%" stop-color="#8DC63F"/>
+      <stop offset="100%" stop-color="#5E9420"/>
+    </linearGradient>
+    <linearGradient id="bGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F6DEA4"/>
+      <stop offset="45%" stop-color="#E0B15C"/>
+      <stop offset="100%" stop-color="#B8862B"/>
+    </linearGradient>
+    <linearGradient id="dnBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E6F6FF"/>
+      <stop offset="40%" stop-color="#8FD3FA"/>
+      <stop offset="100%" stop-color="#2E90DC"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="360" cy="360" r="348" fill="url(#badgeNavy)"/>
+  <circle cx="360" cy="360" r="348" fill="none" stroke="url(#ring)" stroke-width="7"/>
+
+  <g transform="translate(88,150) scale(0.62)" filter="url(#soft)">
+    <path d="M250,28 C250,28 58,268 58,362 A192,192 0 0 0 442,362 C442,268 250,28 250,28 Z"
+          fill="none" stroke="url(#bBlue)" stroke-width="32" stroke-linejoin="round"/>
+    <path d="M262,168 C150,232 128,368 208,438 C258,482 330,466 348,410
+             C305,452 246,442 216,398 C176,340 196,238 262,168 Z" fill="url(#bGreen)"/>
+    <g fill="#BFE9FF">
+      <path d="M334,300 C340,322 350,332 372,338 C350,344 340,354 334,376 C328,354 318,344 296,338 C318,332 328,322 334,300 Z"/>
+      <path d="M296,396 C300,410 306,416 320,420 C306,424 300,430 296,444 C292,430 286,424 272,420 C286,416 292,410 296,396 Z" opacity=".9"/>
+    </g>
+  </g>
+
+  <text x="415" y="330" text-anchor="middle" fill="url(#dnBlue)" filter="url(#soft)"
+        font-family="'Snell Roundhand','Apple Chancery','Segoe Script','Brush Script MT',cursive"
+        font-size="215" font-style="italic">DN</text>
+
+  <text x="430" y="440" text-anchor="middle" fill="url(#bGold)"
+        font-family="'Snell Roundhand','Apple Chancery','Segoe Script','Brush Script MT',cursive"
+        font-size="96" font-style="italic">Super Clean</text>
+
+  <text x="430" y="487" text-anchor="middle" fill="#AFD8F5"
+        font-family="Georgia,'Times New Roman',serif" font-size="34" letter-spacing="1">Cleaning Services</text>
+
+  <text x="430" y="543" text-anchor="middle" fill="url(#bGold)"
+        font-family="Georgia,'Times New Roman',serif" font-size="42">(813) 638-3518</text>
+</svg>

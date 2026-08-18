@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thestockgoatballs.github.io/dnsuperclean/sitemap.xml

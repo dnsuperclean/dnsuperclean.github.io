@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 560" role="img" aria-label="DN Super Clean droplet emblem">
+  <defs>
+    <linearGradient id="dropBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BDCFF"/>
+      <stop offset="45%" stop-color="#48B4F0"/>
+      <stop offset="100%" stop-color="#1466BE"/>
+    </linearGradient>
+    <linearGradient id="dropHi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="leafGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C6E86A"/>
+      <stop offset="50%" stop-color="#8DC63F"/>
+      <stop offset="100%" stop-color="#5E9420"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#glow)">
+    <!-- droplet outline -->
+    <path d="M250,28 C250,28 58,268 58,362 A192,192 0 0 0 442,362 C442,268 250,28 250,28 Z"
+          fill="none" stroke="url(#dropBlue)" stroke-width="30" stroke-linejoin="round"/>
+    <path d="M250,28 C250,28 58,268 58,362 A192,192 0 0 0 442,362 C442,268 250,28 250,28 Z"
+          fill="none" stroke="url(#dropHi)" stroke-width="9" stroke-linejoin="round"/>
+
+    <!-- green leaf swirl inside -->
+    <path d="M262,168 C150,232 128,368 208,438 C258,482 330,466 348,410
+             C305,452 246,442 216,398 C176,340 196,238 262,168 Z"
+          fill="url(#leafGreen)"/>
+    <path d="M262,168 C196,238 176,340 216,398 C246,442 305,452 348,410"
+          fill="none" stroke="#EAF7C4" stroke-opacity=".55" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- sparkles -->
+    <g fill="#BFE9FF">
+      <path d="M334,300 C340,322 350,332 372,338 C350,344 340,354 334,376 C328,354 318,344 296,338 C318,332 328,322 334,300 Z"/>
+      <path d="M296,396 C300,410 306,416 320,420 C306,424 300,430 296,444 C292,430 286,424 272,420 C286,416 292,410 296,396 Z" opacity=".9"/>
+      <path d="M372,246 C375,256 379,260 389,263 C379,266 375,270 372,280 C369,270 365,266 355,263 C365,260 369,256 372,246 Z" opacity=".8"/>
+    </g>
+  </g>
+</svg>
